@@ -1,4 +1,4 @@
-"""Esta es una calculadora funcional que permite realizar sumas, restas, multiplicar este codigo esta elaborado por su servidor 
+"""Esta es una calculadora funcional que permite realizar sumas, restas, multiplicar y divicion este codigo esta elaborado por su servidor 
 Allan García el dia 13 de Agosto del 2025, se espera que sea de su total agrado feliz día"""
 def calculadora():#inicio 
     print("elegir la operacion hacerse:")#elegir Operacion deseada 
@@ -7,7 +7,7 @@ def calculadora():#inicio
     print("3. Multiplicar")#eligio miltiplicacion
     print("4.divicion")#eligio divicion
 
-    operacion = input("Ingrese el número de la operación que desea (1,2,3): ")#ingresar el numero de operacion deseada 
+    operacion = input("Ingrese el número de la operación que desea (1,2,3,4): ")#ingresar el numero de operacion deseada 
 
     num1 = float(input("Ingrese el primer número: "))#ingrese primer numero 
     num2 = float(input("Ingrese el segundo número: "))#ingrese segundo numero 
