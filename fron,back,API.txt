@@ -1,0 +1,26 @@
+Relación entre Frontend, Backend y API
+
+El usuario interactúa con el Frontend que es como quien dice el vendedor 
+
+El frontend es la interfaz: botones, formularios, menús, etc.
+
+Aquí es donde el usuario introduce datos o solicita acciones.
+
+El Frontend se comunica con el Backend  que es como el dueño a través de la API
+
+El frontend no habla directamente con el backend; lo hace mediante la API es decir el producto, que es el intermediario.
+
+Por ejemplo, si el usuario pulsa "Ver productos", el frontend hace una petición HTTP a la API:
+
+GET /productos
+
+
+El Backend procesa y responde
+
+El backend recibe la petición desde la API, consulta la base de datos, procesa la lógica de negocio y envía la respuesta de nuevo a la API.
+
+La API devuelve la información al Frontend
+
+La API empaqueta los datos y se los envía al frontend.
+
+El frontend usa esos datos para actualizar la pantalla del usuario.
